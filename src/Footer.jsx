@@ -8,7 +8,7 @@ const Footer = () => {
             <div>
                 <h1 className='font-bold text-2xl'>BD Jobs</h1>
                 <p>Job hunting website</p>
-                <img src="/public/assets/icons/social.png" alt="" />
+                <img src="../public/assets/icons/social.png" alt="" />
             </div>
 
             {/* company */}
