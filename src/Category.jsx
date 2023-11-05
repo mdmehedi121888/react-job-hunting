@@ -4,7 +4,7 @@ import SingleCategory from './SingleCategory';
 const Category = () => {
     const [datas,setDatas] = useState([]);
     useEffect(()=>{
-        fetch('/public/data/categories.json')
+        fetch('/public/categories.json')
         .then(res => res.json())
         .then( data => setDatas(data));
     },[])

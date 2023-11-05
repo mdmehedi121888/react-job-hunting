@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { addToDb } from '../public/data/localdb';
+import { addToDb } from '/public/localdb.js';
+
 
 
 const JobDetails = () => {
