@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='w-[50%]'>
-                <img src='../src/assets/images/user.png'></img>
+                <img src='/public/assets/images/user.png'></img>
             </div>
         </div>
     );

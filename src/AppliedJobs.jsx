@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getStoredCart } from '../data/localdb';
+import { getStoredCart } from '/public/data/localdb';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJobDisplay from './AppliedJobDisplay';
 
