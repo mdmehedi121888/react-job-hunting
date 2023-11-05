@@ -9,7 +9,7 @@ import { addToDb } from '/public/localdb.js';
 const JobDetails = () => {
 
   const locationDefault = useLocation();
-//   console.log(locationDefault.state);
+
   const {id,company_name,contact_information,educational_requirements,experiences,job_description,job_responsibility,job_title,job_type,location,logo,remote_or_onsite,salary} = locationDefault.state;
   const {phone,email,address} = contact_information;
 

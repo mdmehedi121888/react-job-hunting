@@ -21,11 +21,11 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Home></Home>
+        element:<Home></Home>,
       },
       {
         path:'home',
-        element:<Home></Home>
+        element:<Home></Home>,
       },
       {
         path:'blog',
@@ -38,11 +38,11 @@ const router = createBrowserRouter([
       {
         path:'appliedJobs',
         element:<AppliedJobs></AppliedJobs>,
-        loader:()=> fetch('/public/jobs.json')
+        loader:()=> fetch('../src/data.js')
       },
       {
         path:'jobDetails',
-        element:<JobDetails></JobDetails>
+        element:<JobDetails></JobDetails>,
       }
     ],
     
@@ -54,5 +54,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
         <RouterProvider router={router} />
 
-  </React.StrictMode>,
+  </React.StrictMode>
 )
