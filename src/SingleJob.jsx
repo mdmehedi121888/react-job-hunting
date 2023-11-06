@@ -27,11 +27,11 @@ const SingleJob = ({data}) => {
    
     <div className='flex justify-evenly my-5'>
         <div className='flex gap-3'>
-            <img src='../public/assets/icons/location2.png'></img>
+            <img src='/assets/icons/location2.png'></img>
             <h1>{location}</h1>
         </div>
         <div className='flex'>
-        <img src='../public/assets/icons/money.png'></img>
+        <img src='/assets/icons/money.png'></img>
             <h1>{salary}</h1>
         </div>
     </div>

@@ -26,11 +26,11 @@ const AppliedJobDisplay = ({job}) => {
                 </div>
                 <div className='flex gap-5'>
                 <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/location2.png" alt="" />
+    <img src="/assets/icons/location2.png" alt="" />
     <h1>Address : ${address}</h1>
 </div>
 <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/location2.png" alt="" />
+    <img src="/assets/icons/location2.png" alt="" />
     <h1>Salary: ${salary}</h1>
 </div>
                 </div>

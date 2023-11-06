@@ -56,14 +56,14 @@ const JobDetails = () => {
 
 {/* salary  */}
 <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/money.png" alt="" />
+    <img src="/assets/icons/money.png" alt="" />
     <h1>Salary: ${salary}</h1>
 </div>
 
 
 {/* job title  */}
 <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/calendar.png" alt="" />
+    <img src="/assets/icons/calendar.png" alt="" />
     <h1>Job Title : ${job_title}</h1>
 </div>
 
@@ -73,19 +73,19 @@ const JobDetails = () => {
 
  {/* phone  */}
  <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/phone.png" alt="" />
+    <img src="/assets/icons/phone.png" alt="" />
     <h1>Phone: {phone}</h1>
 </div>
 
  {/* email  */}
  <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/email.png" alt="" />
+    <img src="/assets/icons/email.png" alt="" />
     <h1>Email: ${email}</h1>
 </div>
 
  {/* address  */}
  <div className='flex gap-3 my-3'>
-    <img src="../public/assets/icons/location2.png" alt="" />
+    <img src="/assets/icons/location2.png" alt="" />
     <h1>Address : ${address}</h1>
 </div>
 
